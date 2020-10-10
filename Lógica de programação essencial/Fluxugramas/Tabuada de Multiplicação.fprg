@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Crisf&#226;nio Gon&#231;alves"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-07 12:53:54 a.m."/>
+        <attribute name="created" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDU7MTE6MTI6MzAgcC5tLjs0NTYy"/>
+        <attribute name="edited" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDc7MTI6NTM6NTQgYS5tLjsxOzQ2Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, limite, contador" type="Integer" array="False" size=""/>
+            <assign variable="tabuada" expression="9"/>
+            <assign variable="contador" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <output expression="&quot;Tabuada de Multiplica&#231;&#227;o dos 9:&quot;" newline="True"/>
+            <while expression="contador&lt;=limite">
+                <output expression="tabuada &amp; &quot; X &quot; &amp; contador &amp; &quot; = &quot; &amp; tabuada*contador" newline="True"/>
+                <assign variable="contador" expression="contador+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

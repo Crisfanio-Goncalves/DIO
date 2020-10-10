@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Crisf&#226;nio Gon&#231;alves"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-02 06:53:42 p.m."/>
+        <attribute name="created" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDI7MDY6NDc6NTQgcC5tLjs0NTc3"/>
+        <attribute name="edited" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDI7MDY6NTM6NDIgcC5tLjsxOzQ2Nzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="a&gt;c" newline="True"/>
+            <output expression="a&lt;c" newline="True"/>
+            <output expression="a&gt;b" newline="True"/>
+            <output expression="a&lt;b" newline="True"/>
+            <output expression="b&gt;c" newline="True"/>
+            <output expression="b&lt;c" newline="True"/>
+            <output expression="a==b" newline="True"/>
+            <output expression="a!=b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

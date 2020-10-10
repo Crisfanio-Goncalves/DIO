@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Crisf&#226;nio Gon&#231;alves"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-02 07:12:32 p.m."/>
+        <attribute name="created" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDI7MDc6MDQ6MTggcC5tLjs0NTcx"/>
+        <attribute name="edited" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDI7MDc6MTI6MzIgcC5tLjsxOzQ2NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelimente s&#243; aceitamos pagamento com cart&#227;o&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

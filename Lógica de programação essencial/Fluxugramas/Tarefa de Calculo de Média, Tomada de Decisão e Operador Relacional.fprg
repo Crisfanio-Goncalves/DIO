@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Crisf&#226;nio Gon&#231;alves"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-02 07:37:09 p.m."/>
+        <attribute name="created" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDI7MDc6MjA6MjQgcC5tLjs0NTY2"/>
+        <attribute name="edited" value="Q3Jpc2bDom5pbyBHb27Dp2FsdmVzO0NSSVNGQU5JTy1DQVNBOzIwMjAtMTAtMDI7MDc6Mzc6MDkgcC5tLjsxOzQ2ODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor ganho de Janeiro&quot;" newline="True"/>
+            <input variable="janeiro"/>
+            <output expression="&quot;Digite o valor ganho de Fevereiro&quot;" newline="True"/>
+            <input variable="fevereiro"/>
+            <output expression="&quot;Digite o valor ganho de Mar&#231;o&quot;" newline="True"/>
+            <input variable="marco"/>
+            <output expression="&quot;Digite o valor ganho de Abril&quot;" newline="True"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="&quot;O seu ganho M&#233;dio &#233;&quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Par&#225;bens voc&#234; receber&#225; um abono de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parab&#233;ns voc&#234; receber&#225; um abono de 3%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
